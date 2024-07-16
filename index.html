@@ -1,67 +1,98 @@
 <!DOCTYPE html>
-<html lang="pl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Moja pierwsza stona internetowa</title>
-  </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="instagram/images/logo.svg" alt="Shoper_Instagram Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><img src="instagram/images/icons/home.svg" alt="strona domowa"></li>
+                    <li><img src="instagram/images/icons/magnifier.svg" alt="szukaj"></li>
+                    <li><img src="instagram/images/icons/heart.svg" alt="Polub"></li>
+                    <li><img src="instagram/images/icons/menu.svg" alt="menu"></li>
 
-  <body>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-   <ul>
-    <ol>
-      <a href="../Kontakt/kontakt.html">kontakt</a>
-    </ol>
-
-  </ul>
-
-    <h1>STRONA GŁÓWNA</h1>
-    <p>Lorem <strong>ipsum</strong>, dolor sit amet consectetur adipisicing elit. Maxime blanditiis temporibus quas atque libero consequatur voluptate quam vel et suscipit, molestiae, explicabo tenetur quibusdam magnam, corrupti architecto dolore deleniti odio!</p>
-    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolore excepturi voluptatem quod tempora nisi magnam fuga placeat et voluptatibus, iure beatae iusto. Dicta, accusamus quae accusantium repudiandae non aperiam!</span>
-    <a href="https://shoper.pl"
-    target="_blank">SHOPER</a>
-
-    <h2>Stwórz swoja pierwszą stronę</Label></h2>
-    <h3>Lorem ipsum <small>dolor sit amet</small>dolor sit amet consectetur adipisicing elit. Impedit eum ipsam, aperiam aliquam delectus id animi expedita rem tempora voluptate ipsa cum quas iusto enim eos molestiae quis autem dignissimos!</h3>
-    <img src="https://placehold.jp/200x250.png" alt="logo">
-
-    <ul>
-      <li>
-        <a href="#">Lorem ipsum</a> 
-      
-      </li>
-      
-      <li>
-
-      <a href="#">Lorem ipsum</a> 
-      </li>
-
-      <li>
-
-        <a href="#">Lorem ipsum</a> 
-        </li>
-
-        <ul> 
-          <li>
-
-            <a href="#">Lorem ipsum</a> 
-            </li>  
-            <li>
-
-              <a href="#">Lorem ipsum</a> 
-              </li>  
-        </ul>
-
-    </ul>
-
-    <ol>
-      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cumque qui nostrum nobis, asperiores illo eius ex veritatis odit veniam consectetur animi. Quod consequatur eaque, labore adipisci inventore molestias molestiae.</li>
-      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. In dicta accusantium et error omnis sit laborum optio, sed fugiat! Fuga nisi tenetur, dolores tempore eligendi dignissimos sed placeat necessitatibus reprehenderit.</li>
-    </ol>
-
-
-    
-   
-  </body>
+    <main>
+        <div class="container">
+            <div class="sidebar">
+                <div class="profile">
+                    <img src="instagram/images/users/betty.jpeg" alt="Profile1">
+                    <div>
+                        <strong>username</strong>
+                        <span>Betty</span>
+                    </div>
+                </div>
+                <div class="suggestions">
+                    <h4>Suggestions For You</h4>
+                    <div class="suggestion">
+                        <img src="instagram/images/users/lisa.jpeg" alt="Suggestion 1">
+                        <div>
+                            <strong>sugestia_1</strong>
+                            <span>obserwowany przez Betty + 3 innych</span>
+                        </div>
+                        <button>Śledz</button>
+                    </div>
+                    <div class="suggestion">
+                        <img src="instagram/images/users/joanna.jpeg" alt="Suggestion 2">
+                        <div>
+                            <strong>sugestia_2</strong>
+                            <span>obserwowany przez Jonny + 1 innych</span>
+                        </div>
+                        <button>Śledz</button>
+                    </div>
+                </div>
+            </div>
+            <div class="feed">
+                <div class="post">
+                    <div class="post-header">
+                        <img src="instagram/images/photos/stoisko.jpeg" alt="Profile 1">
+                        <strong>Magda</strong>
+                    </div>
+                    <img src="instagram/images/photos/placeholder.png" alt="post numer 1">
+                    <div class="post-actions">
+                        <img src="instagram/images/icons/heart.svg" alt="polub">
+                        <img src="instagram/images/icons/comment.svg" alt="skomentuj">
+                        <img src="instagram/images/icons/send.svg" alt="wyślij">
+                    </div>
+                    <div class="post-likes">
+                        <strong>Jake</strong> i <strong>300 innych</strong> lubi to
+                    </div>
+                    <div class="post-caption">
+                        <strong>Alan</strong> #hashtag
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post-header">
+                        <img src="instagram/images/photos/placeholder.png" alt="Profile 2">
+                        <strong>Paul</strong>
+                    </div>
+                    <img src="instagram/images/photos/placeholder.png" alt="post numer 2">
+                    <div class="post-actions">
+                        <img src="instagram/images/icons/heart.svg" alt="polub">
+                        <img src="instagram/images/icons/comment.svg" alt="skomentuj">
+                        <img src="instagram/images/icons/send.svg" alt="wyślij">
+                    </div>
+                    <div class="post-likes">
+                        <strong>Alan</strong> i <strong>500 innych</strong> lubi to
+                    </div>
+                    <div class="post-caption">
+                        <strong>Jimmy</strong>#hashtag_example
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
 </html>
